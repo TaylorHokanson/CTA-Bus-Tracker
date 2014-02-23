@@ -43,13 +43,13 @@ while(True):
 	# error handling for first bus
 	try:
 		predictionString = allPredictionsList[0]
-	except IndexError:
+	except:
 		predictionString = 'null'
 		
 	# error handling for next bus
 	try:
 		predictionString2 = allPredictionsList[1]
-	except IndexError:
+	except:
 		predictionString2 = 'null'				
 		
 	# load current time hours/minutes into variables
